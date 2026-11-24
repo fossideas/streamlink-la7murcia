@@ -28,9 +28,9 @@ Copia el archivo `la7tv.py` en el directorio de plugins de usuario de Streamlink
 
 Si la carpeta `plugins` no existe, créala. Streamlink detecta el plugin automáticamente.
 
-## Uso
+## Funcionamiento
 
-```bash
+
 # Reproducir en el reproductor predeterminado
 streamlink "https://www.la7tv.es/a-la-carta/7tv-en-directo/20220810150726000939.html" best
 
@@ -51,6 +51,7 @@ streamlink --stream-url "https://www.la7tv.es/a-la-carta/7tv-en-directo/20220810
 
 - `la7tv.py`: el plugin para streamlink https://github.com/streamlink/streamlink  
 - `la7_hls_token.py`: script independiente que genera la URL `.m3u8` con token; puede utilizarse sin Streamlink, con VLC por ejemplo https://github.com/videolan/vlc/ 
+
 
 ## Contacto
 
